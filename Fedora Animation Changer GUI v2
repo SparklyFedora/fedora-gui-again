@@ -1,0 +1,579 @@
+local Player = game.Players.LocalPlayer
+
+Player.Chatted:connect(function(chat)
+
+if chat:match(";show") then
+
+loadstring(game:HttpGet("https://pastebin.com/raw/yvpYCEhx"))();
+
+end
+
+end)
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Fedora Animation Changer GUI (Beta)", "BloodTheme")
+
+local AnimationsTab = Window:NewTab("Animations")
+
+local AnimationsSection = AnimationsTab:NewSection("Remember to reset before selecting a new animation!")
+
+AnimationsSection:NewButton("Zombie Animation Pack", "loads Zombie Animation Pack", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3303162274"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3303162549"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+
+game.Players.LocalPlayer.Character.Humanoid.Jump = false
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Ninja Animation Pack", "Loads the Ninja Animation Pack", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+
+Animate.run.RunAnim.AnimationId = "https://www.roblox.com/asset/?id=656118852"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+
+Animate.swimidle.SwimIdleAnim.AnimationId = "http://www.roblox.com/asset/?id=656119721"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+
+wait (1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Oldschool Animation Pack", "Loads OldSchool animation Pack", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=5319831086"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=5319844329"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=5319841935"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319839762"
+
+Animate.climb.ClimbAnim.AnimationId = "https://www.roblox.com/asset/?id=5319816685"
+
+wait (1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Cartoony Animation Pack", "Loads the Cartoony Animation Pack", function()
+
+    while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "https://www.roblox.com/asset/?id=742637544"
+
+Animate.idle.Animation2.AnimationId = "https://www.roblox.com/asset/?id=742638445"
+
+Animate.walk.WalkAnim.AnimationId = "https://www.roblox.com/asset/?id=742640026"
+
+Animate.run.RunAnim.AnimationId = "https://www.roblox.com/asset/?id=742638842"
+
+Animate.jump.JumpAnim.AnimationId = "https://www.roblox.com/asset/?id=742637942"
+
+Animate.fall.FallAnim.AnimationId = "https://www.roblox.com/asset/?id=742637151"
+
+Animate.climb.ClimbAnim.AnimationId = "https://www.roblox.com/asset/?id=742636889"
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Werewolf Animation Pack", "Loads Werewolf Animation", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083178339"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083216690"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083182000"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Superhero Animation Pack", "Loads the Superhero animation",function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616111295"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616113536"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=61612287"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616117076"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616115533"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616108001"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=6161104706"
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Levitation Animation Pack","Loads the levitation animation", function()
+
+    while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate       
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Robot Animation Pack","Loads the robot animation",function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616095330"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616091570"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616090535"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616086039"
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Astronaut Animation Pack", "Loads the Astronaut animation pack", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=891621366"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=891633237"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=891636393"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=891636393"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=891627522"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=891617961"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=891609353"
+
+wait(1)
+
+end
+
+end)
+
+AnimationsSection:NewButton("Elder Animation Pack","Loads the Elder Animation", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate  
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=845397899"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=845397899"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=845403856"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=845386501"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=845398858"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=845396048"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=845392038"
+
+wait(1)
+
+end
+
+end)
+
+--Stylish patched version
+
+AnimationsSection:NewButton("Stylish Animation Pack","Stylish", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616136790"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616138447"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616146177"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616140816"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616139451"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616134815"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616133594"
+
+wait(1)
+
+end
+
+end)
+
+--Bubbly patched
+
+AnimationsSection:NewButton("Bubbly Animation Pack","Loads da bubbly animation pack", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "https://www.roblox.com/asset/?id=910004836"
+
+Animate.idle.Animation2.AnimationId = "https://www.roblox.com/asset/?id=910009958"
+
+Animate.walk.WalkAnim.AnimationId = "https://www.roblox.com/asset/?id=910034870"
+
+Animate.run.RunAnim.AnimationId = "https://www.roblox.com/asset/?id=910025107"
+
+Animate.jump.JumpAnim.AnimationId = "https://www.roblox.com/asset/?id=910016857"
+
+Animate.fall.FallAnim.AnimationId = "https://www.roblox.com/asset/?id=910001910"
+
+Animate.swim.swimIdle.AnimationId = "https://www.roblox.com/asset/?id=910030921"
+
+Animate.swim.Swim.AnimationId = "https://www.roblox.com/asset/?id=910028158"
+
+end
+
+end)
+
+AnimationsSection:NewButton("Pirate Animation Pack", "Loads the pirate Animation pack", function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate  
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=750781874"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=750782777"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=750785693"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=750783738"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=750782230"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=750779899"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=750780242"
+
+wait(1)
+
+end
+
+end)
+
+local AnimTab = Window:NewTab("Animations (contd)")
+
+local AnimSection = AnimTab:NewSection("The rest of the animation packs continued")
+
+AnimSection:NewButton("Toy Animation Pack","Toy",function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate 
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=782843345"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+
+Animate.fall.FallAnim.Animationid = "http://www.roblox.xom/asset/?id=782846423"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=782843869"
+
+wait(1)
+
+end
+
+end)
+
+AnimSection:NewButton("Mage Animation Pack","Mage",function()
+
+ while true do
+
+    local Animate = game.Players.LocalPlayer.Character.Animate
+
+    Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+
+    Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+
+    Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+
+    Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+
+    Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+
+    Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+
+    Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+
+    wait(1)
+
+ end
+
+end)
+
+AnimSection:NewButton("Vampire Animation Pack","Vampire",function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate 
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083445855"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083450166"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083473930"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083462077"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083455352"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083455352"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439328"
+
+wait(1)
+
+end
+
+end)
+
+AnimSection:NewButton("Knight Animation Pack","Knight",function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate    
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=65755124"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=657564596"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=658409194"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=657600338"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=658360781"
+
+wait(1)
+
+end
+
+end)
+
+local SpecialTab = Window:NewTab("Special")
+
+local SpecialSection = SpecialTab:NewSection("Special Animations")
+
+SpecialSection:NewButton("Lag Animation","trick people into thinking you're laggy",function()
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate 
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+
+wait(1)
+
+end
+
+end)
+
+SpecialSection:NewButton("God Animation [👑OWNER EXCLUSIVE]", "Loads the God Animation (custom made), m9 edition", function()
+
+  if game.Players.LocalPlayer.Name == "m987q48" then
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3337994105"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3337994105"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+
+wait(1)
+
+end
+
+end
+
+end)
+
+SpecialSection:NewButton("God Animation [Owner V2]", "God Animation Fedora Edition", function()
+
+if game.Players.LocalPlayer.Name == "Sparklyfedorablox" then
+
+while true do
+
+local Animate = game.Players.LocalPlayer.Character.Animate
+
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3337994105"
+
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3337994105"
+
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+
+wait(1)
+
+end
+
+end
+
+end)
+
+local CreditsTab = Window:NewTab("Credits")
+
+local CreditsSection = CreditsTab:NewSection("Credits:")
+
+CreditsSection:NewLabel("Scripted and developed by SparklyFedorablox")
+
+CreditsSection:NewLabel("Thanks " .. game.Players.LocalPlayer.Name .. " For using this script!")
+
+CreditsSection:NewLabel("More updates coming soon!")
+
+CreditsSection:NewLabel("If there are any bugs or issues, contact:")
+
+CreditsSection:NewLabel("SparklyFedora#7715 on Discord")
+
+CreditsSection:NewLabel("You can also DM m987q48YT#4430 on discord")
